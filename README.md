@@ -5,14 +5,14 @@ to nudge the football so that it balances on the edge of the table.
 The game will slowly grow more complex with time but development is driven by a ground up approach. 
 
 
-Frontend Stack:
+## Frontend Stack:
 JS, HTML, CSS (might consider a css lib to make things prettier faster)
 
-Backend Stack:
+## sBackend Stack:
 Tbd
 
-Milestones:
-1:
+# Milestones:
+##1:
 Create a field of play with interactable ball that allows two players, in the same location, to interact
 with the ball, score points in a single browser session.
 
@@ -20,20 +20,20 @@ with the ball, score points in a single browser session.
 If the "ball" reaches the edge without falling (crossing the center of mass), point
 Else, no point 
 
-2:
+## 2:
 Two users are able to play each other from across the interwebs, in real time. 
 
-3:
+## 3:
 The ball has spin momentum as well as directional momentum
 
-4:
+## 4:
 "Smart" computer play
 
-5: 
+## 5: 
 Field goals
 
-
-Nouns:
+# Entity Exploration
+## Nouns:
 - Game
 - Field
 - Football
@@ -41,7 +41,7 @@ Nouns:
 - ScoreBoard
 
 
-Verbs:
+## Verbs:
 - Move
 When a player moves their mouse and the pointer strikes the "ball", the force of the "mouse" will
 transfer to the ball. The ball will move in the direction of the force and continue moving until
