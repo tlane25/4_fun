@@ -8,7 +8,7 @@ The game will slowly grow more complex with time but development is driven by a 
 ## Frontend Stack:
 JS, HTML, CSS (might consider a css lib to make things prettier faster)
 
-## sBackend Stack:
+## Backend Stack:
 Tbd
 
 # Milestones:
