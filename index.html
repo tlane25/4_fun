@@ -8,6 +8,13 @@
 </head>
 <body>
     <h1>Paper Football</h1>
-    <canvas id="gameCanvas" width="600" height="400"></canvas>
+    <canvas id="gameCanvas" width="600" height="400">
+        <!-- Note, the paper football needs to be it's own html element,
+        probally the simplest thing would be to use an img element. The reason for this is
+        that this would we can use it to trigger the ball movement event and disable the next
+        movement until the time comes. I also wonder what the implications will be on moving the 
+        img across the canvas
+        -->
+    </canvas>
 </body>
 </html>
